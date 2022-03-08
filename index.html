@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="icon" href="imgs/logo_circle.png" />
+		<title>Fluix</title>
+	</head>
+	<body onscroll="setHeaderState()" onload="alignBody()">
+		<header class="header">
+			<div class="header-left-block">
+				<a
+					class="header-img-logo"
+					href="#first-page"
+					onclick="smoothScroll(this); return false;"
+				>
+					<img class="header-img-logo" src="imgs/logo_trans.png" />
+				</a>
+				<img class="header-text-logo" src="imgs/text_log.png" />
+			</div>
+			<div class="header-right-block">
+				<a
+					class="header-link"
+					href="#about-section"
+					onclick="smoothScroll(this); return false;"
+					>About</a
+				>
+				<a
+					class="header-link"
+					href="#advantages-section_0"
+					onclick="smoothScroll(this); return false;"
+					>Advantages</a
+				>
+				<a
+					class="header-link"
+					href="#development-section"
+					onclick="smoothScroll(this); return false;"
+					>Development</a
+				>
+			</div>
+		</header>
+
+		<section id="first-page" class="first-page">
+			<img class="first-page-text-logo" src="imgs/text_log.png" />
+			<img
+				class="first-page-app-img"
+				src="imgs/app_4.png"
+				style="bottom: 2vh; left: 0; right: 0; margin: auto"
+			/>
+			<img
+				class="first-page-app-img"
+				src="imgs/app_3.png"
+				style="bottom: 12vh; left: 11vw"
+			/>
+			<img
+				class="first-page-app-img"
+				src="imgs/app_2.png"
+				style="bottom: 48vh; left: 2vw"
+			/>
+			<img
+				class="first-page-app-img"
+				src="imgs/app_5.png"
+				style="bottom: 12vh; right: 11vw"
+			/>
+			<img
+				class="first-page-app-img"
+				src="imgs/app_1.png"
+				style="bottom: 48vh; right: 2vw"
+			/>
+			<p class="first-page-text middle-text darkblue-text">
+				Build cross-platform desktop application <br />in the most fluent way
+				using Python
+			</p>
+		</section>
+		<section id="about-section" class="full-screen-section">
+			<h2 class="large-text darkblue-text">About</h2>
+			<p class="section-paragraph middle-text darkblue-text">
+				Fluix is a cross-platform framework for desktop application developing in
+				Python. It provides completely new, "fluent", way to creating flexible,
+				beautiful programs for any platforms (Linux, MacOS, Windows).
+			</p>
+			<div class="about-section-bottom-block">
+				<p class="middle-text lightblue-text">
+					Gorgeous appearance on all platforms
+				</p>
+				<div class="about-section-imgs-block">
+					<img class="about-section-img" src="imgs/surface_1.png" />
+					<img class="about-section-img" src="imgs/imac_1.png" />
+				</div>
+			</div>
+		</section>
+		<section id="advantages-section_0" class="full-screen-section">
+			<h2 class="large-text darkblue-text">Advantages</h2>
+			<p class="section-paragraph middle-text darkblue-text">
+				The main goal of creating Fluix was desire to make development process
+				easier and faster, and also application - flexible and cool. Fluix is not
+				the solution to all problems, and for high performance programs it is
+				better to use C++ or Java, but it is definitely available concurrent for
+				such modern tools as Electron and Flutter.
+			</p>
+			<div class="advantages-section_0-bottom-block">
+				<img class="advantages-section_0-img" src="imgs/interface_1.png" />
+				<p class="middle-text lightblue-text advantages-section_0-bottom-text">
+					Create your own unique UI based on WebView
+				</p>
+			</div>
+		</section>
+		<section id="advantages-section_1" class="non-title-section">
+			<p class="section-paragraph middle-text darkblue-text">
+				Like Flutter or Electron, Fluix closely related to web technologies, but
+				it has several advantages over them. For example, development on Flutter
+				is conducted on proprietary programming language Dart, that used only in
+				Flutter, when Fluix uses convenient and widespread Python. UI layouts
+				creating in Fluix also more easy and understandable then in Flutter.
+			</p>
+			<div class="advantages-section_1-bottom-block">
+				<img
+					class="advantages-section_1-img"
+					src="imgs/interface_3.png"
+					style="width: 35%; border-radius: 2vh"
+				/>
+				<img
+					class="advantages-section_1-img"
+					src="imgs/code_1.png"
+					style="width: 60%"
+				/>
+			</div>
+		</section>
+		<section id="advantages-section_2" class="non-title-section">
+			<p class="section-paragraph middle-text darkblue-text">
+				What about Electron, it`s main problem is layout creating on archaic,
+				unsuitable HTML or necessity to use web frameworks us React or Vue leading
+				to more resources usage. Fluix solve that problem with great layouting
+				system based on Pages and Widgets. Developers may not have strong skills
+				in html, css and js to create awesome applications.
+			</p>
+			<img class="advantages-section_2-img" src="imgs/widgets.png" />
+		</section>
+		<section id="development-section" class="non-edges-section">
+			<h2 class="large-text darkblue-text">Development</h2>
+			<div class="development-section-column_block">
+				<p class="middle-text lightblue-text">
+					Interface definition in dictionaries
+				</p>
+				<img src="imgs/code_2.png" class="development-section-img" />
+			</div>
+			<div class="development-section-column_block">
+				<p class="middle-text lightblue-text">Events and properties system</p>
+				<img src="imgs/code_3.png" class="development-section-img" />
+			</div>
+			<div class="development-section-row_block">
+				<div class="development-section-row_block-inner">
+					<img
+						src="imgs/code_4.png"
+						style="max-height: 30vh; margin-right: 7vh; border-radius: 2vh"
+					/>
+					<p class="middle-text lightblue-text" style="max-width: 18vw">
+						Use different build-in applications styles
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<p class="middle-text darkblue-text">Я понимаю, что тут все плохо, и я многое сделал не так как хотел, но просто поверь, что идея классная</p>
+		</footer>
+
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 110vh; left: -50vw"
+		/>
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 160vh; right: -42vw; transform: rotate(90deg)"
+		/>
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 260vh; left: -50vw; transform: rotate(225deg)"
+		/>
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 360vh; right: -55vw; transform: rotate(25deg)"
+		/>
+
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 470vh; left: -50vw"
+		/>
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 520vh; right: -42vw; transform: rotate(90deg)"
+		/>
+		<!-- <img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 620vh; left: -50vw; transform: rotate(225deg)"
+		/>
+		<img
+			class="decorative-img"
+			src="imgs/abstract2.png"
+			style="top: 720vh; right: -55vw; transform: rotate(25deg)"
+		/> -->
+
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
